@@ -15,6 +15,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class TomactPresenter {
+    //修改1
     public void sendHttpData(String url, final Handler handler) {
         try {
             OkHttpClient client = new OkHttpClient();
